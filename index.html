@@ -1386,8 +1386,6 @@
     <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Montserrat:700&amp;subset=cyrillic" as="fetch" crossorigin="anonymous" />
-    <!-- AddEvent script -->
-    <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
     <script type="text/javascript">
       !(function(e, n, t)
       {
@@ -1485,9 +1483,6 @@
                 <li><a href="#team">Наша команда</a></li>
                 <li><a href="#tickets">Квитки</a></li>
                 <li><a href="#contacts">Контакти</a></li>
-                <li>
-                  <a class="buy-a-ticket" href="https://inputconf.2event.com/"> Придбати квиток </a>
-                </li>
               </ul>
             </div>
           </nav>
@@ -1510,23 +1505,9 @@
           </div>
           <div class="header-bottom">
             <div class="header-bottom-left header-bottom-block">
-              <p>
-                <!-- AddEvent button -->
-                <a title="Add to Calendar" class="addeventatc" data-styling="none"> Додати у календар <span class="start">5/25/2019 11:00 AM</span>
-                  <span class="end">5/25/2019 7:00 PM</span>
-                  <span class="timezone">Europe/Kyiv</span>
-                  <span class="title">INPUT - твiй шлях в IT</span>
-                  <span class="description"> Конфа з купою незатягнутих доповідей від людей, які працюють в IT, для людей, які ще тільки хочуть спробувати </span>
-                  <span class="location">визначається</span>
-                  <span class="organizer">INPUT, Kottans</span>
-                  <span class="organizer_email">input.conf@gmail.com</span>
-                  <span class="all_day_event">false</span>
-                </a>
-              </p>
               <h3>25 травня</h3>
             </div>
             <div class="header-bottom-center header-bottom-block">
-              <a class="header-bottom-button" href="https://inputconf.2event.com/"> Придбати квиток </a>
             </div>
             <div class="header-bottom-block header-bottom-right">
               <p> Київ, б-р Вацлава Гавела, 6з </p>
@@ -1552,14 +1533,14 @@
             </div>
             <div class="about__slogan">
               <div class="about__slogan-start">
-                <img src="/img/about/Slogan-start.svg" alt="Стоп і все ж таки" class="about__slogan-img" />
+                <img data-srcset="/img/about/Slogan-start.svg" alt="Стоп і все ж таки" class="about__slogan-img lazy" />
               </div>
               <div class="about__img-wrapper">
-                <img src="/img/about/Rotating_head.gif" alt="rotating thinking emoji" class="about__img" />
+                <img data-srcset="/img/about/Rotating_head.gif" alt="rotating thinking emoji" class="about__img lazy" />
               </div>
               <div class="about__slogan-end">
                 <a href="https://kottans.org/">
-                  <img src="/img/about/Slogan-end.svg" alt="При чому тут котики?" class="about__slogan-img" />
+                  <img data-srcset="/img/about/Slogan-end.svg" alt="При чому тут котики?" class="about__slogan-img lazy" />
                 </a>
               </div>
             </div>
@@ -1571,24 +1552,24 @@
           <h2 class="h2-text">Як це буде</h2>
           <div class="card-wrapper">
             <div class="card card-first">
-              <img src="/img/wait/emoji-1.svg" alt="emoji">
+              <img data-srcset="/img/wait/emoji-1.svg" alt="emoji" class="lazy">
               <h3 class="card-text">Спілкування</h3>
               <p>Mожливість ставити будь які запитання і отримати кваліфіковані відповіді від сучасних “зірок” ІТ-індустрії.</p>
             </div>
             <div class="card card-second">
-              <img src="/img/wait/emoji-2.svg" alt="emoji">
+              <img data-srcset="/img/wait/emoji-2.svg" class="lazy" alt="emoji">
               <h3 class="card-text">Мотивація</h3>
               <p>Поговоримо про те, що айтішником не потрібно народжуватися, всьому можна навчитися, а також про те де і як це можна зробити.</p>
             </div>
           </div>
           <div class="card-wrapper">
             <div class="card card-third">
-              <img src="/img/wait/emoji-3.svg" alt="emoji">
+              <img data-srcset="/img/wait/emoji-3.svg" class="lazy" alt="emoji">
               <h3 class="card-text">Кар'єра</h3>
               <p>Ви дізнаєтеся про актуальні спеціальності та зможете стати представником обраної вами. А можливо амбассадором. ツ </p>
             </div>
             <div class="card card-fourth">
-              <img src="/img/wait/emoji-4.svg" alt="emoji">
+              <img data-srcset="/img/wait/emoji-4.svg" class="lazy" alt="emoji">
               <h3 class="card-text">Приємності</h3>
               <p>Ну і незмінні атрибути ІТ конференцій — піца та стікери.</p>
             </div>
@@ -1598,25 +1579,25 @@
       <section class="sections" id="sections">
         <div class="container">
           <h2 class="h2-sections">Секції</h2>
-          <div class="section-item">
+          <div class="section-item lazy-background" data-bg="linear-gradient(0deg,rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)),url(&#39;/img/sections/1.svg&#39;) no-repeat">
             <div class="number-content">
               <h3>Особистий шлях в ІТ</h3>
               <p>Вчорашні студенти, митці, філологи, світчери, що освоїли інженерні професії або розпочали кар&#39;єру в HR, менеджменті, продажах розкажуть про проблеми, з якими часто стикаються новачки і шляхи їх подолання.</p>
             </div>
           </div>
-          <div class="section-item">
+          <div class="section-item lazy-background" data-bg="linear-gradient(0deg,rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)),url(&#39;/img/sections/2.svg&#39;) no-repeat">
             <div class="number-content">
               <h3>Навчання</h3>
               <p>Як і де вчитися? який стек технологій і як обирати? як успішно свічнутися? курси або самоосвіта, плюси і мінуси?</p>
             </div>
           </div>
-          <div class="section-item">
+          <div class="section-item lazy-background" data-bg="linear-gradient(0deg,rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)),url(&#39;/img/sections/3.svg&#39;) no-repeat">
             <div class="number-content">
               <h3>Відкриті IT ком&#39;юніті</h3>
               <p>Знайомство зі спільнотами; спілкування, підтримка, ком&#39;юніті - як і де їх шукати?</p>
             </div>
           </div>
-          <div class="section-item">
+          <div class="section-item lazy-background" data-bg="linear-gradient(0deg,rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)),url(&#39;/img/sections/4.svg&#39;) no-repeat">
             <div class="number-content">
               <h3>Кар&#39;єра</h3>
               <p>З чого почати пошук роботи, ідеальне резюме, співпраця з рекрутерами, перша робота і багато іншого.</p>
@@ -1660,7 +1641,7 @@
             </div>
           </div>
           <div class="themes__hmm-wrapper">
-            <img class="themes__hmm-gif" src="/img/themes/Hmm-on-dark.gif" alt="Hmm Gif" />
+            <img class="themes__hmm-gif lazy" data-srcset="/img/themes/Hmm-on-dark.gif" alt="Hmm Gif">
           </div>
         </div>
       </section>
@@ -1773,8 +1754,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Zatsarinnaya2x.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Zatsarinnaya.jpg" alt="Владислава Зацаринна" class="speakers__image">
+                  <source srcset="./img/speakers/people/Zatsarinnaya2x.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Zatsarinnaya.jpg" alt="Владислава Зацаринна" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://www.facebook.com/vladislava.zatsarinnaya" class="speakers__link" target="_blank">Владислава Зацаринна</a>
@@ -1784,8 +1765,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Zarudnieva.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Zarudnieva.jpg" alt="Марія Заруднєва" class="speakers__image">
+                  <source srcset="./img/speakers/people/Zarudnieva.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Zarudnieva.jpg" alt="Марія Заруднєва" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://www.facebook.com/masha.zarudnieva" class="speakers__link" target="_blank">Марія Заруднєва</a>
@@ -1795,8 +1776,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Shvydka2x.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Shvydka.jpg" alt="Дар&#39;я Швидка" class="speakers__image">
+                  <source srcset="./img/speakers/people/Shvydka2x.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Shvydka.jpg" alt="Дар&#39;я Швидка" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://twitter.com/sonnyberkowitz" class="speakers__link" target="_blank">Дар&#39;я Швидка</a>
@@ -1806,8 +1787,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/frolov2x.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/frolov.jpg" alt=" Сергій Фролов" class="speakers__image">
+                  <source srcset="./img/speakers/people/frolov2x.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/frolov.jpg" alt=" Сергій Фролов" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://www.facebook.com/sergey.frolov" class="speakers__link" target="_blank"> Сергій Фролов</a>
@@ -1817,8 +1798,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Shurupova2x.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Shurupova.jpg" alt="Євгенія Шурупова" class="speakers__image">
+                  <source srcset="./img/speakers/people/Shurupova2x.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Shurupova.jpg" alt="Євгенія Шурупова" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://www.facebook.com/evgeniya.shurupova" class="speakers__link" target="_blank">Євгенія Шурупова</a>
@@ -1828,8 +1809,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Mikhnenko.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Mikhnenko.jpg" alt="Олександр Міхненко" class="speakers__image">
+                  <source srcset="./img/speakers/people/Mikhnenko.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Mikhnenko.jpg" alt="Олександр Міхненко" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://www.facebook.com/toklian" class="speakers__link" target="_blank">Олександр Міхненко</a>
@@ -1839,8 +1820,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Titarenko2X.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Titarenko.jpg" alt="Іван Титаренко" class="speakers__image">
+                  <source srcset="./img/speakers/people/Titarenko2X.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Titarenko.jpg" alt="Іван Титаренко" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://www.facebook.com/ititarenko" class="speakers__link" target="_blank">Іван Титаренко</a>
@@ -1850,8 +1831,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Lapshyn.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Lapshyn.jpg" alt="Олександр Лапшин" class="speakers__image">
+                  <source srcset="./img/speakers/people/Lapshyn.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Lapshyn.jpg" alt="Олександр Лапшин" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://twitter.com/sudodoki" class="speakers__link" target="_blank">Олександр Лапшин</a>
@@ -1861,8 +1842,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Ilchenko2x.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Ilchenko.jpg" alt="Наталія Ільченко" class="speakers__image">
+                  <source srcset="./img/speakers/people/Ilchenko2x.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Ilchenko.jpg" alt="Наталія Ільченко" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://www.facebook.com/n.ilchenko90" class="speakers__link" target="_blank">Наталія Ільченко</a>
@@ -1872,8 +1853,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Listochkin2x.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Listochkin.jpg" alt="Андрій Лісточкін" class="speakers__image">
+                  <source srcset="./img/speakers/people/Listochkin2x.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Listochkin.jpg" alt="Андрій Лісточкін" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://twitter.com/listochkin" class="speakers__link" target="_blank">Андрій Лісточкін</a>
@@ -1883,8 +1864,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Dovhan2x.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Dovhan.jpg" alt="Денис Довгань" class="speakers__image">
+                  <source srcset="./img/speakers/people/Dovhan2x.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Dovhan.jpg" alt="Денис Довгань" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://www.facebook.com/denysdovhan" class="speakers__link" target="_blank">Денис Довгань</a>
@@ -1894,8 +1875,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Gryko2x.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Gryko.jpg" alt="Piotr Gryko" class="speakers__image">
+                  <source srcset="./img/speakers/people/Gryko2x.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Gryko.jpg" alt="Piotr Gryko" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://www.facebook.com/piotr.gryko" class="speakers__link" target="_blank">Piotr Gryko</a>
@@ -1905,8 +1886,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Ivanov2x.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Ivanov.jpg" alt="Олексій Іванов" class="speakers__image">
+                  <source srcset="./img/speakers/people/Ivanov2x.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Ivanov.jpg" alt="Олексій Іванов" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://www.facebook.com/alex.ivanov.7568596" class="speakers__link" target="_blank">Олексій Іванов</a>
@@ -1916,8 +1897,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/AnnaDanovska.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/AnnaDanovska.jpg" alt="Анна Дановська" class="speakers__image">
+                  <source srcset="./img/speakers/people/AnnaDanovska.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/AnnaDanovska.jpg" alt="Анна Дановська" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://www.facebook.com/anna.kendz" class="speakers__link" target="_blank">Анна Дановська</a>
@@ -1927,8 +1908,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Sharlay.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Sharlay.jpg" alt="Катя Шарлай" class="speakers__image">
+                  <source srcset="./img/speakers/people/Sharlay.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Sharlay.jpg" alt="Катя Шарлай" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://www.facebook.com/profile.php?id=100010665877124" class="speakers__link" target="_blank">Катя Шарлай</a>
@@ -1938,8 +1919,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Shepsheley2x.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Shepsheley.jpg" alt="Аліна Шепшелей" class="speakers__image">
+                  <source srcset="./img/speakers/people/Shepsheley2x.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Shepsheley.jpg" alt="Аліна Шепшелей" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://www.facebook.com/alinashepshelei" class="speakers__link" target="_blank">Аліна Шепшелей</a>
@@ -1949,8 +1930,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Suchov.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Suchov.jpg" alt="Артем Сичов" class="speakers__image">
+                  <source srcset="./img/speakers/people/Suchov.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Suchov.jpg" alt="Артем Сичов" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://www.facebook.com/suchov" class="speakers__link" target="_blank">Артем Сичов</a>
@@ -1960,8 +1941,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Mykolenko2x.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Mykolenko.jpg" alt="Оксана Миколенко" class="speakers__image">
+                  <source srcset="./img/speakers/people/Mykolenko2x.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Mykolenko.jpg" alt="Оксана Миколенко" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://www.facebook.com/oksana.mikolenko" class="speakers__link" target="_blank">Оксана Миколенко</a>
@@ -1971,8 +1952,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Tkachuk2x.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Tkachuk.jpg" alt="Максим Ткачук" class="speakers__image">
+                  <source srcset="./img/speakers/people/Tkachuk2x.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Tkachuk.jpg" alt="Максим Ткачук" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://ua.linkedin.com/in/maxtkachuk/ru" class="speakers__link" target="_blank">Максим Ткачук</a>
@@ -1982,8 +1963,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Andriiko2x.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Andriiko.jpg" alt="Андрій Андрійко" class="speakers__image">
+                  <source srcset="./img/speakers/people/Andriiko2x.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Andriiko.jpg" alt="Андрій Андрійко" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://www.facebook.com/andrey.andriyko" class="speakers__link" target="_blank">Андрій Андрійко</a>
@@ -1993,8 +1974,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Landvytovych.jpeg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Landvytovych.jpeg" alt="Христина Ландвитович" class="speakers__image">
+                  <source srcset="./img/speakers/people/Landvytovych.jpeg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Landvytovych.jpeg" alt="Христина Ландвитович" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://www.facebook.com/cristina.landvytovych" class="speakers__link" target="_blank">Христина Ландвитович</a>
@@ -2004,8 +1985,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Koshman.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Koshman.jpg" alt="Сергій Кошман" class="speakers__image">
+                  <source srcset="./img/speakers/people/Koshman.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Koshman.jpg" alt="Сергій Кошман" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://www.facebook.com/prosto.koshman" class="speakers__link" target="_blank">Сергій Кошман</a>
@@ -2015,8 +1996,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Rudyy2x.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Rudyy.jpg" alt="Михайло Рудий" class="speakers__image">
+                  <source srcset="./img/speakers/people/Rudyy2x.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Rudyy.jpg" alt="Михайло Рудий" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://www.facebook.com/people/Mike-Rudyy/100008290425562" class="speakers__link" target="_blank">Михайло Рудий</a>
@@ -2026,8 +2007,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Andrushchenko2x.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Andrushchenko.jpg" alt="Денис Андрущенко" class="speakers__image">
+                  <source srcset="./img/speakers/people/Andrushchenko2x.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Andrushchenko.jpg" alt="Денис Андрущенко" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://www.facebook.com/da.orient" class="speakers__link" target="_blank">Денис Андрущенко</a>
@@ -2037,8 +2018,8 @@
             <article class="speakers__item">
               <div class="speakers__image-wrapper">
                 <picture>
-                  <source srcset="./img/speakers/people/Rudenko2x.jpg" media="(max-width: 767px)">
-                  <img src="./img/speakers/people/Rudenko.jpg" alt="Олексій Руденко" class="speakers__image">
+                  <source srcset="./img/speakers/people/Rudenko2x.jpg" media="(max-width: 767px)" />
+                  <img data-srcset="./img/speakers/people/Rudenko.jpg" alt="Олексій Руденко" class="speakers__image lazy" />
                 </picture>
               </div>
               <a href="https://fb.me/oleksiy.rudenko.5" class="speakers__link" target="_blank">Олексій Руденко</a>
@@ -2051,9 +2032,9 @@
       <section class="speakers-call" id="speakers-call">
         <h2 class="h2-sections">Наша тиша хоче, <br> щоб ви говорили</h2>
         <div class="link-wrapper">
-          <img class="girl" alt="girl" src="/img/speakers/girl.svg">
+          <img class="girl lazy" alt="girl" data-srcset="/img/speakers/girl.svg">
           <a href="http://input.tilda.ws/" target="_blank" class="speakers-call-link"> Сайт для спікерів </a>
-          <img class="boy" alt="boy" src="/img/speakers/boy.svg">
+          <img class="boy lazy" alt="boy" data-srcset="/img/speakers/boy.svg">
         </div>
       </section>
       <section class="organizers__wrapper" id="organizers">
@@ -2076,7 +2057,7 @@
                 <p class="organizers__p"> Найближчим часом планується запуск курсу фронтенд в Чернівцях, бекенд курсу і проведення конференції для новачків в світі ІТ. </p>
               </div>
               <div class="organizers__column-right">
-                <img class="organizers__icon" src="/img/organizers/kottans-gradient.svg" alt="Лого Коттанс" />
+                <img class="organizers__icon lazy" data-srcset="/img/organizers/kottans-gradient.svg" alt="Лого Коттанс" />
               </div>
             </div>
             <div class="organizers__kottans-citation">
@@ -2091,27 +2072,27 @@
         <div class="container">
           <h2 class="h2-sections">Що кажуть про <span class="h2-sections-rebase">Коттанів</span></h2>
           <div class="item">
-            <img src="./img/aboutkottans/igor.png" alt="Ігор Курков">
+            <img data-srcset="./img/aboutkottans/igor.png" class="lazy" alt="Ігор Курков" />
             <div class="photo-content">
-              <p class="name">Ігор Курков<span>, DB2 Limited</span></h3>
-                <p class="photo-p">Веб — мое хобби. Если вы думаете, что войти в IT легко — сомневайтесь.</p>
-                <p class="photo-p">99% отваливаются на начальном этапе. Но с курсом Коттанов — у IT просто нет шансов перед вами. Коттанский фронтенд — это как британский спецназ, буткэмп от МИ-6.</p>
+              <p class="name">Ігор Курков<span>, DB2 Limited</span></p>
+              <p class="photo-p">Веб — мое хобби. Если вы думаете, что войти в IT легко — сомневайтесь.</p>
+              <p class="photo-p">99% отваливаются на начальном этапе. Но с курсом Коттанов — у IT просто нет шансов перед вами. Коттанский фронтенд — это как британский спецназ, буткэмп от МИ-6.</p>
             </div>
           </div>
           <div class="item">
-            <img src="./img/aboutkottans/stepashko.png" alt="Анна Степашко">
+            <img data-srcset="./img/aboutkottans/stepashko.png" class="lazy" alt="Анна Степашко" />
             <div class="photo-content">
-              <p class="name">Анна Степашко<span>, Відкриті публічні фінанси</span></h3>
-                <p class="photo-p">Котаны не только разжевывают базу и энное количество раз повторяют, чтобы дошло, но и очень хорошо тренируют самоорганизованность (лично у меня левел поднялся).</p>
-                <p class="photo-p">А еще это большая семья — всегда есть поддержка в чатах (если где-то застрял), совместные вылазки-шашлыки etc.</p>
+              <p class="name">Анна Степашко<span>, Відкриті публічні фінанси</span></p>
+              <p class="photo-p">Котаны не только разжевывают базу и энное количество раз повторяют, чтобы дошло, но и очень хорошо тренируют самоорганизованность (лично у меня левел поднялся).</p>
+              <p class="photo-p">А еще это большая семья — всегда есть поддержка в чатах (если где-то застрял), совместные вылазки-шашлыки etc.</p>
             </div>
           </div>
           <div class="item">
-            <img src="./img/aboutkottans/orlov.png" alt="Євген Орлов">
+            <img data-srcset="./img/aboutkottans/orlov.png" class="lazy" alt="Євген Орлов" />
             <div class="photo-content">
-              <p class="name">Євген Орлов<span>, Adraba</span></h3>
-                <p class="photo-p">Раджу курси Kottans всім, хто не шукає короткої стежки в IT, але хоче справді розбиратись в темі та бути досить затребуваним на ринку.</p>
-                <p class="photo-p"> Ці натхенні люди заряджають своїм ентузіазмом і дають поштовх рухатись далі — вчитись самому і допомагати іншим охочим навчитись.</p>
+              <p class="name">Євген Орлов<span>, Adraba</span></p>
+              <p class="photo-p">Раджу курси Kottans всім, хто не шукає короткої стежки в IT, але хоче справді розбиратись в темі та бути досить затребуваним на ринку.</p>
+              <p class="photo-p"> Ці натхенні люди заряджають своїм ентузіазмом і дають поштовх рухатись далі — вчитись самому і допомагати іншим охочим навчитись.</p>
             </div>
           </div>
           <div class="red-btn-wrapper">
@@ -2124,7 +2105,7 @@
           <h2 class="heading-team">Наша команда</h2>
           <picture>
             <source srcset="/img/team/photo_m.jpg" media="(max-width: 767px)">
-            <img src="/img/team/photo.jpg" alt="group photo" class="team-photo">
+            <img data-srcset="/img/team/photo.jpg" alt="group photo" class="team-photo lazy">
           </picture>
         </div>
         <div class="wrapper-links">
@@ -2330,7 +2311,8 @@
                                       <div class="media-partners__grid">
                                         <div class="media-partners__item" id="partner_fwdays">
                                           <div class="media-partners__logo">
-                                            <div class="media-partners__img" style="background-image:url(/img/partners/media/fwdays.svg);"></div>
+                                            <div class="media-partners__img lazy-background" data-bg="url(/img/partners/media/fwdays.svg)">
+                                            </div>
                                           </div>
                                           <div class="media-partners__name">
                                             <a href="https://fwdays.com/" class="media-partners__link"> fwdays </a>
@@ -2341,7 +2323,8 @@
                                         </div>
                                         <div class="media-partners__item" id="partner_from_ua">
                                           <div class="media-partners__logo">
-                                            <div class="media-partners__img" style="background-image:url(/img/partners/media/from_ua.png);"></div>
+                                            <div class="media-partners__img lazy-background" data-bg="url(/img/partners/media/from_ua.png)">
+                                            </div>
                                           </div>
                                           <div class="media-partners__name">
                                             <a href="https://from-ua.com/" class="media-partners__link"> From-UA </a>
@@ -2352,7 +2335,8 @@
                                         </div>
                                         <div class="media-partners__item" id="partner_prnews">
                                           <div class="media-partners__logo">
-                                            <div class="media-partners__img" style="background-image:url(/img/partners/media/prnews.png);"></div>
+                                            <div class="media-partners__img lazy-background" data-bg="url(/img/partners/media/prnews.png)">
+                                            </div>
                                           </div>
                                           <div class="media-partners__name">
                                             <a href="https://prnews.io/" class="media-partners__link"> PRNEWS.IO </a>
@@ -2363,7 +2347,8 @@
                                         </div>
                                         <div class="media-partners__item" id="partner_frontend_dev">
                                           <div class="media-partners__logo">
-                                            <div class="media-partners__img" style="background-image:url(/img/partners/media/FrontEndDev.jpg);"></div>
+                                            <div class="media-partners__img lazy-background" data-bg="url(/img/partners/media/FrontEndDev.jpg)">
+                                            </div>
                                           </div>
                                           <div class="media-partners__name">
                                             <a href="https://t.me/front_end_dev" class="media-partners__link"> front_end_dev </a>
@@ -2374,7 +2359,8 @@
                                         </div>
                                         <div class="media-partners__item" id="partner_liga_net">
                                           <div class="media-partners__logo">
-                                            <div class="media-partners__img" style="background-image:url(/img/partners/media/liga.net.png);"></div>
+                                            <div class="media-partners__img lazy-background" data-bg="url(/img/partners/media/liga.net.png)">
+                                            </div>
                                           </div>
                                           <div class="media-partners__name">
                                             <a href="https://www.liga.net/" class="media-partners__link"> ЛІГА.net </a>
@@ -2385,7 +2371,8 @@
                                         </div>
                                         <div class="media-partners__item" id="partner_ain">
                                           <div class="media-partners__logo">
-                                            <div class="media-partners__img" style="background-image:url(/img/partners/media/ain.svg);"></div>
+                                            <div class="media-partners__img lazy-background" data-bg="url(/img/partners/media/ain.svg)">
+                                            </div>
                                           </div>
                                           <div class="media-partners__name">
                                             <a href="https://ain.ua/" class="media-partners__link"> AIN.UA </a>
@@ -2396,7 +2383,8 @@
                                         </div>
                                         <div class="media-partners__item" id="partner_interfax_ukraine">
                                           <div class="media-partners__logo">
-                                            <div class="media-partners__img" style="background-image:url(/img/partners/media/interfax.png);"></div>
+                                            <div class="media-partners__img lazy-background" data-bg="url(/img/partners/media/interfax.png)">
+                                            </div>
                                           </div>
                                           <div class="media-partners__name">
                                             <a href="https://interfax.com.ua/" class="media-partners__link"> Інтерфакс-Україна </a>
@@ -2407,7 +2395,8 @@
                                         </div>
                                         <div class="media-partners__item" id="partner_chernivci_js">
                                           <div class="media-partners__logo">
-                                            <div class="media-partners__img" style="background-image:url(/img/partners/media/chernivci.svg);"></div>
+                                            <div class="media-partners__img lazy-background" data-bg="url(/img/partners/media/chernivci.svg)">
+                                            </div>
                                           </div>
                                           <div class="media-partners__name">
                                             <a href="https://chernivtsi.js.org/" class="media-partners__link"> ChernivtsiJS </a>
@@ -2418,7 +2407,8 @@
                                         </div>
                                         <div class="media-partners__item" id="partner_lviv_css">
                                           <div class="media-partners__logo">
-                                            <div class="media-partners__img" style="background-image:url(/img/partners/media/lvivcss.svg);"></div>
+                                            <div class="media-partners__img lazy-background" data-bg="url(/img/partners/media/lvivcss.svg)">
+                                            </div>
                                           </div>
                                           <div class="media-partners__name">
                                             <a href="https://lvivcss.org/" class="media-partners__link"> LvivCSS </a>
@@ -2429,7 +2419,8 @@
                                         </div>
                                         <div class="media-partners__item" id="partner_jetbrains">
                                           <div class="media-partners__logo">
-                                            <div class="media-partners__img" style="background-image:url(/img/partners/media/jetbrains.svg);"></div>
+                                            <div class="media-partners__img lazy-background" data-bg="url(/img/partners/media/jetbrains.svg)">
+                                            </div>
                                           </div>
                                           <div class="media-partners__name">
                                             <a href="https://www.jetbrains.com/" class="media-partners__link"> JetBrains </a>
@@ -2442,9 +2433,9 @@
                                     </div>
                                     <section class="insired" id="inspired">
                                       <h3 class="media-partners__title"> Надихають </h3>
-                                      <div class="partners__item partners__item--sponsor" id="partner_wix">
+                                      <div class="partners__item partners__item--sponsor">
                                         <div class="partners__logo">
-                                          <div class="media-partners__img media-partners__img--inspired" style="background-image:url(/img/partners/media/zlitIT.png)"></div>
+                                          <div class="media-partners__img media-partners__img--inspired lazy-background" data-bg="url(/img/partners/media/zlitIT.png)"></div>
                                         </div>
                                         <h3 class="partners__name">
                                           <a href="https://zlit.events/" class="partners__link">ZLIT</a>
@@ -2461,7 +2452,7 @@
           <div class="tickets-wrapper">
             <div class="ticket-item bird">
               <div class="ticket-body">
-                <div class="img-wrapper ">
+                <div class="img-wrapper lazy-background " data-bg="url(../img/tickets/sprite-bird.png) no-repeat 0 0">
                 </div>
                 <h3 class="ticket-title">Рання пташечка</h3>
                 <p class="ticket-description">Для перших 50 <span class="ticket-rebase"> спартанцiв </span>
@@ -2475,7 +2466,7 @@
             </div>
             <div class="ticket-item bird">
               <div class="ticket-body">
-                <div class="img-wrapper img-wrapper-standart">
+                <div class="img-wrapper lazy-background img-wrapper-standart" data-bg="url(../img/tickets/sprite-bird.png) no-repeat -120px 0">
                 </div>
                 <h3 class="ticket-title">Стандарт</h3>
                 <p class="ticket-description">І колу 0.5, будь ласка! </p>
@@ -2488,7 +2479,7 @@
             </div>
             <div class="ticket-item bird">
               <div class="ticket-body">
-                <div class="img-wrapper img-wrapper-owl">
+                <div class="img-wrapper lazy-background img-wrapper-owl" data-bg="url(../img/tickets/sprite-bird.png) no-repeat -240px 0">
                 </div>
                 <h3 class="ticket-title">Совушка</h3>
                 <p class="ticket-description">Останній покупець <span class="ticket-rebase"> на Землі </span>
@@ -2503,8 +2494,8 @@
           </div>
           <div class="tickets-wrapper">
             <div class="ticket-item supporter">
-              <div class="ticket-body">
-                <div class="ticket-img"></div>
+              <div class="ticket-body lazy-background" data-bg="url(../img/tickets/paper-texture.png), radial-gradient(544.61px at 97.61% 1.61%, rgba(179, 179, 179, 0.98) 0%, rgba(117, 117, 117, 0.98) 100%)">
+                <div class="ticket-img lazy-background" data-bg="url(../img/tickets/bird-4.png) no-repeat center center"></div>
                 <div class="ticket-head">
                   <h3 class="ticket-title">Supporter</h3>
                   <div class="ticket-description">
@@ -2543,13 +2534,13 @@
                   <dd class="ticket-set-item">+подяка в наших медіа</dd>
                 </dl>
               </div>
-              <footer class="ticket-footer">
-                <div class="ticket-footer-block"></div>
+              <footer class="ticket-footer lazy-background" data-bg="url(../img/tickets/paper-texture.png), radial-gradient(544.61px at 97.61% 1.61%, rgba(179, 179, 179, 0.98) 0%, rgba(117, 117, 117, 0.98) 100%)">
+                <div class="ticket-footer-block lazy-background" data-bg="url(../img/tickets/barcode-big.png) no-repeat center center"></div>
               </footer>
             </div>
             <div class="ticket-item supporter supporter-ss">
-              <div class="ticket-body">
-                <div class="ticket-img"></div>
+              <div class="ticket-body lazy-background" data-bg="url(../img/tickets/paper-texture.png), radial-gradient(529.81px at 1.09% 2.3%, rgba(60, 60, 60, 0.98) 0%, rgba(15, 15, 15, 0.98) 100%)">
+                <div class="ticket-img lazy-background" data-bg="url(../img/tickets/bird-4.png) no-repeat center center"></div>
                 <div class="ticket-head">
                   <h3 class="ticket-title">Super Supporter</h3>
                   <div class="ticket-description">
@@ -2593,8 +2584,8 @@
                   <dd class="ticket-set-item">+особлива подяка в наших медіа</dd>
                 </dl>
               </div>
-              <footer class="ticket-footer">
-                <div class="ticket-footer-block"></div>
+              <footer class="ticket-footer lazy-background" data-bg="url(../img/tickets/paper-texture.png), radial-gradient(529.81px at 1.09% 2.3%, rgba(60, 60, 60, 0.98) 0%, rgba(15, 15, 15, 0.98) 100%)">
+                <div class="ticket-footer-block lazy-background" data-bg="url(../img/tickets/barcode-big.png) no-repeat center center"></div>
               </footer>
             </div>
           </div>
@@ -2609,32 +2600,32 @@
             <div class="contacts__socials">
               <div class="contacts__socials-item">
                 <a href="https://www.facebook.com/inputconf/" class="contacts__socials-link">
-                  <img src="/img/contacts/facebook.svg" alt="Facebook icon" class="contacts__socials-img" />
+                  <img data-srcset="/img/contacts/facebook.svg" alt="Facebook icon" class="contacts__socials-img lazy">
                 </a>
               </div>
               <div class="contacts__socials-item">
                 <a href="https://t.me/inputconf" class="contacts__socials-link">
-                  <img src="/img/contacts/telegram.svg" alt="Telegram icon" class="contacts__socials-img" />
+                  <img data-srcset="/img/contacts/telegram.svg" alt="Telegram icon" class="contacts__socials-img lazy">
                 </a>
               </div>
               <div class="contacts__socials-item">
                 <a href="https://twitter.com/inputconf" class="contacts__socials-link">
-                  <img src="/img/contacts/twitter.svg" alt="Twitter icon" class="contacts__socials-img" />
+                  <img data-srcset="/img/contacts/twitter.svg" alt="Twitter icon" class="contacts__socials-img lazy">
                 </a>
               </div>
               <div class="contacts__socials-item">
                 <a href="mailto:input.conf@gmail.com" class="contacts__socials-link">
-                  <img src="/img/contacts/mail.svg" alt="Mail icon" class="contacts__socials-img" />
+                  <img data-srcset="/img/contacts/mail.svg" alt="Mail icon" class="contacts__socials-img lazy">
                 </a>
               </div>
               <div class="contacts__socials-item">
                 <a href="https://www.youtube.com/channel/UCygJxCJgNKns-EGttMqzGZQ" class="contacts__socials-link">
-                  <img src="/img/contacts/youtube.svg" alt="Youtube icon" class="contacts__socials-img" />
+                  <img data-srcset="/img/contacts/youtube.svg" alt="Youtube icon" class="contacts__socials-img lazy">
                 </a>
               </div>
               <div class="contacts__socials-item">
                 <a href="https://www.instagram.com/input.confer/" class="contacts__socials-link">
-                  <img src="/img/contacts/insta.svg" alt="Instagram icon" class="contacts__socials-img" />
+                  <img data-srcset="/img/contacts/insta.svg" alt="Instagram icon" class="contacts__socials-img lazy">
                 </a>
               </div>
             </div>
@@ -2647,7 +2638,7 @@
             <div class="footer__love">
               <div class="footer__input-conf">
                 <a href="https://inputconf.org" target="_blank" title="inputconf.org">
-                  <img src="/img/footer/input-logo.svg" alt="Conference Logo" class="footer__input-conf-img">
+                  <img data-srcset="/img/footer/input-logo.svg" alt="Conference Logo" class="footer__input-conf-img lazy" />
                 </a>
               </div>
               <div class="footer__heart">
@@ -2655,11 +2646,12 @@
               </div>
               <div class="footer__logo">
                 <a href="https://kottans.org" target="_blank" title="kottans.org">
-                  <img src="/img/footer/kottans_logo.svg" alt="Kottans Logo" class="footer__logo-img">
+                  <img data-srcset="/img/footer/kottans_logo.svg" alt="Kottans Logo" class="footer__logo-img lazy" />
                 </a>
               </div>
             </div>
           </div>
+        </div>
       </footer>
     </div>
     <!-- END content -->
